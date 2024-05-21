@@ -4,7 +4,7 @@ import Header from './componentes/header';
 import Tarjeta from './componentes/tarjeta';
 import Texto from './componentes/texto';
 
-import tarjetas from './data/tarjetas.data';
+import {tarjetas} from './data/tarjetas.data';
 
 function App() {
   return (
@@ -18,14 +18,13 @@ function App() {
       </div>
       </div>
     <div>
-    {tarjetas.map(tarjeta => (
+    {tarjetas.map((tarjeta, i) => (
 
     
-    <Tarjeta>
-      imagen={tarjeta.imagen}
-      texto={tarjeta.texto}
-      titulo={tarjeta.titulo}
-    </Tarjeta>
+    <Tarjeta key={i} imagen={tarjeta.imagen}
+      texto={tarjeta.text}
+      titulo={tarjeta.titulo} />
+
     ))}
   </div>
   </div>
