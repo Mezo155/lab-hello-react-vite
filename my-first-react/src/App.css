@@ -20,6 +20,7 @@
 .texto{
   color: white;
   padding-left: 50px;
+  font-size: 30px;
 }
 .texto .awesome{
   display: inline-block;
@@ -29,6 +30,22 @@
   padding: 0px 20px;
   ;
 }
-.Tarjeta{
-  color: black
+
+.card-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  
+}
+.card-container .card{
+  border: none;
+  
+}
+.card{
+  margin: 0px 25px;
+}
+h1{
+  font-size: 100px;
+  font-weight: bold;
+  
 }

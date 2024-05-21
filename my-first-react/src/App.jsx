@@ -17,7 +17,7 @@ function App() {
         <Texto></Texto>
       </div>
       </div>
-    <div>
+    <div className='card-container'>
     {tarjetas.map((tarjeta, i) => (
 
     

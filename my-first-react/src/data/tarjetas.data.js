@@ -3,11 +3,11 @@ import logo2 from "../assets/icon2.png";
 import logo3 from "../assets/icon3.png";
 import logo4 from "../assets/icon4.png";
 
-export const tarjetas = [
+const tarjetas = [
     {
         imagen: logo1,
         titulo: "Declarative",
-        text: "React makes it paintless to create interactive UIs", 
+        text: "React makes it <br> paintless to create interactive UIs", 
     },
     {
         imagen: logo2,
@@ -25,3 +25,4 @@ export const tarjetas = [
         text: "Statically-typed. designed to run on modern browsers",
     }
 ];
+export default tarjetas
