@@ -4,6 +4,7 @@
   width: 50vw;
   height: 50vh;
   margin-left:25%;
+  margin-top: 30px;
 }
 .Header {
   display: flex;

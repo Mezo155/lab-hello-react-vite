@@ -4,7 +4,7 @@ import Header from './componentes/header';
 import Tarjeta from './componentes/tarjeta';
 import Texto from './componentes/texto';
 
-import {tarjetas} from './data/tarjetas.data';
+import tarjetas from './data/tarjetas.data.js';
 
 function App() {
   return (

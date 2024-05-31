@@ -7,7 +7,7 @@ const tarjetas = [
     {
         imagen: logo1,
         titulo: "Declarative",
-        text: "React makes it <br> paintless to create interactive UIs", 
+        text: "React makes it paintless to create interactive UIs", 
     },
     {
         imagen: logo2,
@@ -25,4 +25,4 @@ const tarjetas = [
         text: "Statically-typed. designed to run on modern browsers",
     }
 ];
-export default tarjetas
+export default tarjetas;
